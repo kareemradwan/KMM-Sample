@@ -1,0 +1,31 @@
+{
+  "name": "shared",
+  "version": "1.1",
+  "homepage": "https://github.com/touchlab/KaMPKit",
+  "source": {
+    "git": "Not Published",
+    "tag": "Cocoapods/shared/1.1"
+  },
+  "authors": "",
+  "license": "",
+  "summary": "Common library for the KaMP starter kit",
+  "static_framework": true,
+  "vendored_frameworks": "shared/shared.framework",
+  "libraries": "c++",
+  "module_name": "shared_umbrella",
+  "pod_target_xcconfig": {
+    "KOTLIN_TARGET[sdk=iphonesimulator*]": "ios_x64",
+    "KOTLIN_TARGET[sdk=iphoneos*]": "ios_arm",
+    "KOTLIN_TARGET[sdk=watchsimulator*]": "watchos_x64",
+    "KOTLIN_TARGET[sdk=watchos*]": "watchos_arm",
+    "KOTLIN_TARGET[sdk=appletvsimulator*]": "tvos_x64",
+    "KOTLIN_TARGET[sdk=appletvos*]": "tvos_arm64",
+    "KOTLIN_TARGET[sdk=macosx*]": "macos_x64"
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

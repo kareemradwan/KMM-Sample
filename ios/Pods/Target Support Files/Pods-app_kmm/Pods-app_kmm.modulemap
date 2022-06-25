@@ -1,0 +1,6 @@
+framework module Pods_app_kmm {
+  umbrella header "Pods-app_kmm-umbrella.h"
+
+  export *
+  module * { export * }
+}
